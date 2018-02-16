@@ -1,0 +1,22 @@
+{
+  "name": "local-network-test",
+  "version": "1.0.0",
+  "description": "Testing local network detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaRaSu/local-network-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaRaSu/local-network-test/issues"
+  },
+  "homepage": "https://github.com/MaRaSu/local-network-test#readme",
+  "dependencies": {
+    "local-devices": "^1.0.5"
+  }
+}
