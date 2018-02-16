@@ -1,6 +1,3 @@
-let test = "koe";
-console.log(test);
-
 //import find from 'local-devices';
 var find = require('local-devices');
 // var devicesList;
@@ -11,4 +8,12 @@ async function skannaa() {
   return a;
 }
 
-skannaa().then(val => console.log(val));
+skannaa().then(printtaa);
+
+function printtaa(devices) {
+  for(let i in devices) {
+    if(devices[i].mac !== "<incomplete>") {
+      console.log(devices[i]);
+    }
+  }
+}
